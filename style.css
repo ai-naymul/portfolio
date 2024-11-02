@@ -1,0 +1,27 @@
+.container {
+    text-align: center;
+}
+
+.skills.columns {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px; /* Adjust the gap between items as needed */
+}
+
+.skills.columns li {
+    list-style-type: none; /* Remove bullet points */
+    text-align: center; /* Center align text if desired */
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Adjust the gap between links as needed */
+}
+
+ul li {
+    display: inline; /* Display list items inline */
+}
+
